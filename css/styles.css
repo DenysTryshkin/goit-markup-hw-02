@@ -98,7 +98,8 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-background-color: #2196F3;;
+background-color: #2196F3;
+border: none;
 }
 
 .hero {
@@ -227,3 +228,46 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--focus-color)
 }
 
+
+/*------portfolio.html-----*/
+
+.portfolio-item {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+background: #F5F4FA;
+border: none;
+}
+
+
+.portfolio-item:focus, 
+.portfolio-item:hover {
+   background-color: #2196F3;
+   color: var(--secondary-title-color)
+    }
+
+    .examples-title {
+        font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+    }
+
+
+.examples-text {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
