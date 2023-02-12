@@ -20,13 +20,13 @@ body {
 
 .header-logo {
 font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
 }
 
 .header-logo-item {
@@ -64,6 +64,7 @@ color: var(--primary-title-color);
 }
 
 .header-mail {
+font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -71,6 +72,7 @@ color: var(--secondary-title-color);
 }
 
 .header-tel {
+font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -84,7 +86,6 @@ color: var(--secondary-title-color);
 }
 
 .section-title {
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -126,7 +127,6 @@ color: var(--secondary-title-color);
 /*------------about-------------*/
 
 .about-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -139,11 +139,11 @@ text-transform: capitalize;
 }
 
 .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 letter-spacing: 0.02em;
-text-transform: capitalize;
 color: var(--primary-title-color);
 }
 
@@ -180,7 +180,7 @@ color: #4D5AE5;
 }
 
 .footer-logo {
-font-family: 'Raleway'sans-serif;
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -191,6 +191,7 @@ color: #F4F4FD;
 }
 
 .footer-text {
+font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -211,6 +212,7 @@ color: #E7E9FC;
 }
 
 .portfolio-item {
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -219,7 +221,7 @@ color: #4D5AE5;
 background-color:#F4F4FD;;
 }
 
-.portfolio-tetle {
+.portfolio-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2px;
