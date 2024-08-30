@@ -120,12 +120,3 @@
 за замовчуванням. Наприклад, посиланням не потрібно вказувати `cursor: pointer`,
 а абзацам `font-style: normal` або `font-weight: 400`.
 
-# Web Studio
-
-![Web Page](./images/screencapture1.png)
-
----
-
-![Web Page](./images/screencapture2.png)
-
----
